@@ -3,7 +3,7 @@ pragma solidity ^0.8.17;
 
 import "forge-std/Test.sol";
 import "../src/contracts/LendingProtocol.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "../../lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 
 contract LendingProtocolTest is Test {
     LendingProtocol protocol;
